@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@500&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #313131;
+}
+
+.main{
+  align-items: center;
+  background-color: #313131;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: #d1ceb3;
+  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
+  height: 50em;
+  transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 4em 3em;
+}
+
+.sidebar nav li {
+  font-family: 'Zilla Slab', serif;
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2.5em 0em;
+  align-items: center;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: medium;
+}
+
+
+.infoContainer {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 7em 10em;
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+.Contactform {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 5em 10em;
+  padding: 3em;
+  display:block;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+.introContainer {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 5em 10em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+.introContainer img{
+  height: 5em;
+}
+
+.CContainer {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 5rem 10em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+
+.Cdes {
+  flex-direction: column;
+}
+
+.FContainer {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 5rem 10em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+
+.Fdes {
+  flex-direction: column;
+}
+
+.PContainer {
+  border-radius: 1em;
+  background-color: #141414;
+  color: #d1ceb3;
+  margin: 5rem 10em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Zilla Slab', serif;
+}
+
+.Pdes {
+  flex-direction: column;
+}
+
+h1 {
+  color: #d1ceb3;
+  text-align: center;
+  margin: 4rem 10rem;
+  font-family: 'Zilla Slab', serif;
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 2em 1em 0 0;
+  border-radius: 0.3em;
+  background-color: #d1ceb3;
+  color: #313131;
+  font-family: 'Zilla Slab', serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #d1ceb3;
+  background-color: #313131;
+}
+
+.hello {
+  font-size: 3em;
+}
+
+.C {
+  font-size: 2em;
+}
+
+.F {
+  font-size: 2em;
+}
+
+
+.P {
+  font-size: 2em;
+}
+
+.name {
+  font-size: 5em;
+  font-family: 'Square Peg', cursive;
+}
+
+.about {
+  font-size: 1.3em;
+}
+
+.moreabout {
+  margin-top: 1.25em;
+  margin-right: 1.25em;
+  font-size: 1.2em;
+}
+
+.devPic img {
+  height: 30em;
+  border-radius: 100%;
+}
+
+.Cpic img {
+  height: 15em;
+}
+
+.Fpic img {
+  height: 15em;
+}
+
+a{
+ color:#3366BB;
+} 
+
+
+.Ppic img {
+  height: 15em;
+}
+
+.Wpic img{
+  height: 15em;
+}
+
+.Spic img{
+  height: 15em;
+}
+
+.level{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: medium;
+  margin: 2em 3em;
+}
+
+.Contactform form div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  padding: 2em 0;
+}
+
+.Contactform input {
+  margin-top: 0.4em;
+}
+
+.emailHelp {
+  font-size: 0.7em;
+  margin-top: 0.4em;
+}
+
+
+.container {
+  display: flex;
+}
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 1.25em;
+  left: 1.25em;
+}
+
+
+.cross{
+  margin-left: 6em;
+}
+
+
+.sidebarGo {
+  position: absolute;
+  transform: translate(-30em, 0em);
+}
+
+@media (max-width : 1500px) {
+
+  .infoContainer, .PContainer, .FContainer, .CContainer, h1, .Contactform{
+    margin: 5em;
+  }
+
+  .infoContainer, .PContainer, .FContainer, .CContainer {
+    flex-wrap: wrap;
+  }
+
+  .Ppic, .Spic, .Wpic, .Cpic, .Fpic img{
+    margin: 4em;
+  }
+  .devPic img{
+    margin: 4em;
+    height: 15em;
+  }
+  
+}
+
